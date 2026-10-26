@@ -28,3 +28,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # Screen density
 TARGET_SCREEN_DENSITY := 440
+DEVICE_MANIFEST_TARO_FILES += hardware/dolby/vendor.dolby.hardware.dms@2.0-service.xml hardware/dolby/vendor.dolby.media.c2.xml
+DEVICE_MANIFEST_CAPE_FILES += hardware/dolby/vendor.dolby.hardware.dms@2.0-service.xml hardware/dolby/vendor.dolby.media.c2.xml
+DEVICE_MANIFEST_DIWALI_FILES += hardware/dolby/vendor.dolby.hardware.dms@2.0-service.xml hardware/dolby/vendor.dolby.media.c2.xml
+DEVICE_MANIFEST_UKEE_FILES += hardware/dolby/vendor.dolby.hardware.dms@2.0-service.xml hardware/dolby/vendor.dolby.media.c2.xml
